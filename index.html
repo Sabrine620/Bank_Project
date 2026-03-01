@@ -17,12 +17,12 @@
     <!-- //////Header section//// -->
     <header class="header">
       <div class="text">
-        <h3>Log in to get started</h3>
+        <h3 class="logIn">Log in to get started</h3>
       </div>
       <img src="images/logo.png" alt="" />
       <div class="right-header">
-        <input type="text" placeholder="user">
-        <input type="password" placeholder="PIN">
+        <input class="user-input" type="text" placeholder="user">
+        <input class="pin-input" type="number" placeholder="PIN">
         <button class="btn"><i class="fa-solid fa-arrow-right-long"></i></button>
       </div>
     </header>
@@ -52,7 +52,7 @@
             <span class="withdrawal">1 WITHDRAWAL</span>
             <span class="days">24/01/2037</span>
           </div>
-          <div class="price">-378 €</div>
+          <div class="price-withdrawal">-378 €</div>
         </div>
         </section>
 
@@ -79,9 +79,9 @@
 
         <div class="right-side3">
           <h4>Close account</h4>
+          <input class="input" type="text" />
           <input class="input" type="number" />
-          <input class="input" type="number" />
-          <button><i class="fa-solid fa-arrow-right-long"></i></button>
+          <button class="btnClose"><i class="fa-solid fa-arrow-right-long"></i></button>
         <div class="text">
           <p >Confirm user</p>
           <p >Confirm PIN</p>
@@ -93,12 +93,13 @@
     <!-- //////footer section//// -->
     <footer class="footer">
       <div class="first-footer">
-        <p> IN <span class="content"> 0000 €</span></p>
-        <p> OUT <span class="middel-content">0000 €</span></p>
-        <p> INTEREST <span class="content"> 0000 €</span> </p>
+        <p> IN <span class="in-content"> 0000 €</span></p>
+        <p> OUT <span class="out-content">0000 €</span></p>
+        <p> INTEREST <span class="inetrest-content"> 0000 €</span> </p>
       </div>
       <span><i class="fa-solid fa-arrow-down"></i>SORT</span>
       <span> You will be logged out in 05:00 </span>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>

@@ -15,6 +15,9 @@ body{
     align-items: center;
     margin: 0px 50px;  
 }
+.text h3{
+    cursor: pointer;
+}
 img{
   
   width: 50px;
@@ -194,12 +197,12 @@ img{
   
 }
 
-.content{
+.in-content, .inetrest-content{
     color: #66c86b;
     font-size: 30px;
     font-weight: 30px;
 }
-.middel-content{
+.out-content{
      font-size: 30px;
     font-weight: 30px;
     color: #be3d4f;
