@@ -1,221 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Manrope:wght@200..800&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+TZ+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tiny5&family=Yuji+Mai&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Dancing+Script:wght@400..700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Playwrite+US+Trad+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap');
+/* ////////// navbar //////////////// */
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(235, 235, 213);
-    font-family: "Bricolage Grotesque", sans-serif;
-       
-}
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 50px;  
-}
-.text h3{
-    cursor: pointer;
-}
-img{
-  
-  width: 50px;
-}
- input{
-    border: none;
-    padding: 10px 0;
-    border-radius: 20px;
-    background-color: white;
-    margin: 0px 3px ;
-    text-align: center;
-    font-family: "Bricolage Grotesque", sans-serif;
-    
-   
-}
-.btn{
-    border: none;
-    background: none;
-}
-.right-header{
-    display: flex;
-    flex-direction: row;
-    
-}
-.right-header input{
-    opacity: 0.5;
-    cursor: pointer;
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(234, 231, 231);
 }
 
-/* ///////main section//// */
-.main-content-info{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 200px;
-   
-}
-.balance-label{
-    font-weight: 600;
-}
-.balance-date{
-    font-family: "Bricolage Grotesque", sans-serif;
-    font-size: 12px;
-
+* {
+  font-family: "Manrope", serif;
+  font-optical-sizing: auto;
 }
 
-.balance-value{
-    font-size: 40px;
-    font-weight: 400;
-  
-}
-.main-content{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.left-side-container{
-    display: flex;
-    flex-direction: column;
-     background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 450px;
-    margin-left: 200px;
-    overflow: scroll;
-    border-top-left-radius: 10px;
-}
-.left-side{
-   
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px ;
-    border-bottom: solid 2px #eee;
-  
+.nav-logo {
+  margin: 0px 450px;
 }
 
-.deposit{
-  
-    margin: 0 30px;
-    background: linear-gradient( to left top ,#66c86b,#92fe9d  );
-    color: white;
-    padding: 5px 20px;
-    border-radius: 10px ;
-    font-size: 10px;
-    font-weight: 50px;
-    height: 10px;
-}
-.days{
-     font-size: 10px;
-   
-}
-.price{
-    font-size: 15px;
-    display: block;
-   
-}
-.withdrawal{
-     margin: 0 30px;
-    background: linear-gradient( to left top ,#be3d4f );
-    color: white;
-    padding: 5px 20px;
-    border-radius: 10px ;
-    font-size: 10px;
-    font-weight: 50px;
-    height: 10px;
-
-}
-.right-side{
-    width: 50%;
-   
-}
-.right-side1{
-       background-image: linear-gradient(to top left, #ffb003, #ffcb03);
-       width: 60%;
-       height: 130px;
-       border-radius: 10px;
-       padding-left: 30px;
-          
-}
- .right-side1 h4, .right-side2 h4,.right-side3 h4 {
-    
-    padding-top: 10px;
- }
- .text{
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    gap: 60px;
-    padding-left: 15px;
-    
- }
-
-    
-.input{
-    opacity: 0.4;
-    border-radius: 5px;
-    border: none;
-    width: 30%;
-    padding: 5px; 
-     
-}
-.right-side1 button, .right-side2 button, .right-side3 button{
-     border: none;
-    padding: 5px 20px;
-    border-radius: 8px;
-    background-color: white;
-    margin: 0px 3px ;
-    cursor: pointer;
-}
-.right-side2{
-     background-image: linear-gradient(to top left, #39b385, #9be15d);
-      
-       width: 60%;
-       height: 130px;
-       border-radius: 10px;
-       padding-left: 30px;
+header input {
+  width: 100px;
+  padding: 10px 8px;
+  margin: 0px 10px;
+  border-radius: 15px;
+  border: transparent;
+  background-color: white;
+  text-align: center;
 }
 
-.right-side3{
-     background-image: linear-gradient(to top left, #e52a5a, #ff585f);
-       width: 60%;
-       height: 130px;
-       border-radius: 10px;
-      padding-left: 30px;
+.auth-btn {
+  cursor: pointer;
 }
 
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 0 150px;
-    margin-top: 50px;
-    align-items: baseline;
-   font-family: "Bricolage Grotesque", sans-serif;
-  
+.arrow {
+  cursor: pointer;
 }
 
-.in-content, .inetrest-content{
-    color: #66c86b;
-    font-size: 30px;
-    font-weight: 30px;
-}
-.out-content{
-     font-size: 30px;
-    font-weight: 30px;
-    color: #be3d4f;
+/* //////////// main header //////////////////// */
 
-}
-.first-footer {
+.main-header {
+  width: 80%;
+  margin: 120px auto 0px auto;
 
-   display: flex;
-   flex-direction: row;
-   font-family: "Bricolage Grotesque", sans-serif;
-   
-}
-.first-footer p{
-margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.main-header h1 {
+  font-size: 45px;
+  font-weight: 500;
+}
+
+/* /////////////////// main-movements //////////////////// */
+
+/* ////////////////////////////////////////////left //////////////////////////////  */
+
+.movements-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.left {
+  width: 45%;
+  height: 600px;
+  overflow: scroll;
+  background-color: white;
+  border-radius: 8px;
+}
+.right {
+  width: 45%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.deposit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-bottom: 0.1px solid gray;
+}
+.deposit {
+  margin-right: 8px;
+  background: linear-gradient(to top left, greenyellow, rgb(142, 232, 6));
+  border-radius: 8px;
+  padding: 4px;
+  font-weight: 600;
+  color: white;
+}
+
+.deposit-info span {
+  font-size: 13px;
+}
+
+.withdraw-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-bottom: 0.1px solid gray;
+}
+.withdraw-info span {
+  font-size: 13px;
+}
+
+.withdraw {
+  margin-right: 8px;
+  background: linear-gradient(to top left, #f66451, #d5230b);
+  border-radius: 8px;
+  padding: 4px 15px;
+  font-weight: 600;
+  color: white;
+}
+
+/* right /////////////////////////////////////// (transfert) ////////////////////////////////////////// */
+
+.transfert-box {
+  border-radius: 10px;
+  width: 70%;
+  margin: 25px auto 10px auto;
+  height: 150px;
+  background: linear-gradient(to top left, #f1a208, #f9c04d);
+  padding: 10px 0px;
+}
+
+.loan-box {
+  border-radius: 10px;
+  width: 70%;
+  margin: 25px auto 10px auto;
+  height: 150px;
+  background: linear-gradient(to top left, rgb(37, 177, 37), greenyellow);
+  padding: 10px 0px;
+}
+
+.close-box {
+  border-radius: 10px;
+  width: 70%;
+  margin: 25px auto 10px auto;
+  height: 150px;
+  background: linear-gradient(to top left, #d87669, #f5351b);
+  padding: 10px 0px;
+}
+.box-title {
+  margin-left: 25px;
+}
+
+.transfert-form input {
+  width: 120px;
+  padding: 5px;
+  margin: 0px 8px 15px 8px;
+  border-radius: 8px;
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.close-form input {
+  width: 120px;
+  padding: 5px;
+  margin: 0px 8px 15px 8px;
+  border-radius: 8px;
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+
+.loan-form input {
+  width: 120px;
+  padding: 5px;
+  margin: 0px 8px 15px 8px;
+  border-radius: 8px;
+  border: transparent;
+  background-color: rgba(255, 255, 255, 0.377);
+}
+.transfert-form button {
+  padding: 5px 25px;
+  background-color: white;
+  border: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.close-form button {
+  padding: 5px 25px;
+  background-color: white;
+  border: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.loan-form button {
+  padding: 5px 25px;
+  background-color: white;
+  border: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.transfert-form {
+  position: relative;
+  left: 18px;
+}
+
+.close-form {
+  position: relative;
+  left: 18px;
+}
+.loan-form {
+  position: relative;
+  left: 18px;
+}
+
+.label-amount-transfet {
+  position: relative;
+  left: 105px;
+}
+.label-transfert {
+  position: relative;
+  left: 30px;
+}
+
+.label-user-close {
+  position: relative;
+  left: 30px;
+}
+
+.label-pin-close {
+  position: relative;
+  left: 85px;
+}
+.label-amount-loan {
+  position: relative;
+  left: 45px;
+}
+
+/* /////////////// footer /////////// */
+
+footer {
+  padding: 15px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.euro {
+  margin-right: 15px;
+}
+
+.mov-info-in,
+.mov-info-out,
+.mov-info-interest {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.mov-average-in {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(15, 222, 15);
+}
+.mov-average-out {
+  font-size: 20px;
+  font-weight: 500;
+  color: #d5230b;
+}
+
+.mov-average-interest {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(15, 222, 15);
+}
+
+.logged-out-timer {
+  font-weight: bolder;
+}
+
+.summury-container {
+  margin: 0px 10px;
+}
+
+main {
+  opacity: 0;
+}
+
+.transfert-user,
+.amount-transfert-input,
+.close-user,
+.close-pin,.loan-input {
+  text-align: center;
+}
+
+
+.sort{
+  cursor: pointer;
+}
